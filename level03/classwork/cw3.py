@@ -1,0 +1,7 @@
+#3) დაწერეთ კოდი სადაც მომხმარებელს მოთხოვ საყვარელ ფერს, რიცხვს, ცხოველს, და შემდეგ გამოიტანეთ (გამოიყენეთ დაახლოებით 3ჯერ ან მეტჯერ)
+favorite_color=(input("Enter your favorite color: "))
+favorite_number=int(input("Enter favorite_number: "))
+favorite_animal=(input ("Enter favorite_animal: "))
+print(f"sheni sayvareli feria {favorite_color}")
+print(f"sheni sayvareli cifria {favorite_number}")
+print(f"sheni sayvareli cxovelia {favorite_animal}")
