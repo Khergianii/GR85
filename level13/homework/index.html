@@ -1,0 +1,119 @@
+<!--შექმენით multypage website მოტოციკლების შესახებ  
+
+უნდა გქონდეთ მთავარი გვერდი  უნდა გქონდეთ header და ასევე nav ,ნავიგაცია უნდა იყოს როგორც მთავარ გვერდზე ასევე სხვა ფეიჯებზეც რომ შეძძ₾ოთ სხვადასხვა
+ფეიჯებზე გადაადგილება,უნდა გქონეეთ მეინი სადაც ისაუუბრებთ ზოგადად მოტოციკლების შესახებ,დაამატეთ გავლილი მასალიდან ,ფოტოები ტექსტები ღლაკები,
+კარგი იქნება თუ იქნება ვიდეოებუც,ასევე dropdown მენიუ და ა.შ ,გამოიყენე header main footer აუცილებლად
+
+მთავარი გვერდის გარდა უნდა გქოდნეთ 5 ფეიჯითითეულ გვერდზე უნდა გქონდეთ ინფფორმაცია სხვადასხვა მოტოციკლებზე  header main footer და ასევე ნავიგაციაც ,
+ამ ფეიჯებზე დაამატეთ კონკრეტული მოტოციკლის მოდელი და მის შესაეხებ ინფორმაცია,ასევე განვლილიდან გამოიყენეთ ყველაფერი რასაცხ შეძლებთ,ვებსაიტი უნდა იყოს 
+რაც შეიძლება დიდი და უნდა იყოს მოთავსებული რაც შეიძლება ბევრი ინფორმაცია ყველა ფეიჯზე.
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoZone</title>
+</head>
+<body>
+
+
+<header>
+    <h1>მოტოციკლები -- საინფორმაციო გვერდი</h1>
+    <nav>
+        <a href="/level13/homework/sport.html">Model Sport </a>|
+        <a href="/level13/homework/touring.html">Model Touring </a>|
+        <a href="/level13/homework/contactus.html">Model Touring </a>|
+    </nav>
+</header>
+ 
+<main>
+    <section>
+        <h2> რა არის მოტოციკლი ?</h2>
+        <p> <strong>მოტოციკლი/motocycle</strong> — ორი ან სამბორბლიანი მექანიკური სატრანსპორტო საშუალებაა, რომლის მუშაობა უზრუნველყოფილია შიდა წვის ძრავით ან ელექტრო ძრავით.
+             მათ გამოიყენებენ სატრანსპორტოდ, სპორტისთვის, ტურიზმისა და რეცრეცციისთვის.</p>
+         <video  autoplay loop muted width="600"> 
+            <source src="freedom..mp4" type="mp4">  
+            <source src="freedom..mp4" type="video/mkv">
+            <source src="freedom..mp4" type="video/webm">
+        </video>
+    </section>
+
+    <section>
+        <h2>არსებობს ბევრნაირი ტიპის მოტოციკლეტები</h2>
+            <ul>
+                <li>
+                   <strong>სპორტული (sport)</strong> — მაღალი სიმძლავრე, სპორტული ქეისი და პოზიცია საჭეზე.
+                </li>
+
+                <li>
+                    <strong>კრუზერი (cruiser)</strong> — კომფორტული პოზიცია, დაბალი სალასიანი კონსტრუქცია.
+                </li>
+
+                <li>
+                    <strong>ტურისტული (touring) </strong>— დიდი დაპარკინგებული კომპლექტაცია, საბარგო ყუთით.
+                </li>
+
+                <li>
+                    <strong>მთის (adventure/dual-sport)</strong> — შესაფერისია როგორც გზაზე, ისე არაგზაზე სიარულისთვის.
+                </li>
+
+                <li>
+                    <strong>ელექტრო მოტოციკლები</strong> — გარემოსთვის სუფთა ალტერნატივა.
+                </li>
+            </ul>
+    </section>
+
+    <article>
+        <h2>მოიწყინა შენმა პატარა მეგობარმა ჩვენ დაგეხმარებით</h2>
+            <div style="display:flex; align-items:center; gap:12px; border: 2px solid black; padding: 12px; max-width: 700px;" >
+                <img src="cat.PNG" alt="პატრონი ეთამაშება თავის კატას" width="250">
+            <div>
+                    <p style="background-color: aqua;"><strong>PawJoy</strong> -- შენი შინაური აღარ მოიწყენს! 🐶🐱</p>
+                    <p style="background-color: aqua;">სათამაშოები, რომლებიც ენერგიას არ ამოწურავს.</p>
+                    <p style="background-color: aqua;"> მეტი ინფორმაციისთვის დააწკაპე </p>
+                    <p><button><a href="https://www.pawjoyboutique.com/">მეტი ინფორმაციისთვის</a></button></p>
+            </div>
+        </div>
+    </article>
+
+    <section>
+                 <h2>რჩევები დამწყები ბაიკერებისთვის</h2>
+        <ol>
+             <li>ყოველთვის ატარე ჩაფხუტი (helmet) — სრული სახის ჩაფხუტი უსაფრთხოების ყველაზე მაღალი დონეა.</li>
+             <li>წაიკითხე მოპედის/მოტოციკლის მექანიკა (გადაცემათა კოლოფი, უკანა და წინა ბრეიკი, საბურავები).  </li>     
+             <li>იყავი მუდმივად ორიენტირებული გზაზე — ფეხით მანქანების მოძრაობასაც თვალყური ადევნე.         </li>                                                                               </li>
+        </ol>
+        
+    
+     </section>
+
+     <aside> 
+        <h2>GripMax საბურავები</h2>
+        <div style="display: flex; align-items: center; gap: 15px; border: 2px solid black; padding: 12px; max-width: 700px; ">
+        <img src="Capture.PNG" alt="მოტოციკლეტის საბურავები" width="250">
+        <div>
+        <p style="background-color: aqua;"> <strong>GripMax</strong> -- უსაფრთხოება, სტაბილურობა და სიზუსტე გზაზე!</p> 
+        <p style="background-color: aqua;"> აირჩიე საუკეთესო საბურავი შენს მოტოციკლზე.</p>
+        <p style="background-color: aqua;"> მეტი ინფორმაციისთვის დააწკაპე</p>
+        <p> <button><a href="https://www.pawjoyboutique.com/">მეტი ინფორმაციისთვის </a></button></p>
+        </div>
+        </div>
+     </aside>
+</main>
+
+<footer>
+<p>მოგვყევით: 
+  <a href="https://www.facebook.com/motozonedubai">Facebook</a> | 
+  <a href="https://www.instagram.com/moto__zone__/">Instagram</a> | 
+</p>
+
+<p>© 2025 MotoZone. ყველა უფლება დაცულია.</p>
+<p>კონტაქტი: info@motosite.ge | +995 599 123 456</p>
+
+</footer>
+
+
+</body>
+</html>
